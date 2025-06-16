@@ -25,3 +25,13 @@ Since this is a new repository without established tooling, future development w
 - Project structure and architecture
 
 When adding these components, this CLAUDE.md file should be updated with the appropriate commands and architectural guidance.
+
+## Git Operation Policies
+
+- Always use descriptive, concise commit messages
+- Prefer atomic commits that represent a single logical change
+- Use feature branches for new development
+- Squash commits before merging to keep the main branch history clean
+- Always pull and rebase before pushing to avoid merge conflicts
+- Protect the main branch with required reviews and status checks
+- Use meaningful branch names that describe the feature or fix
